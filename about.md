@@ -2,6 +2,7 @@
 layout: page
 title: about
 permalink: /about/
+header: about me
 ---
 
 Hi, I'm Ben.
