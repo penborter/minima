@@ -1,7 +1,7 @@
 ---
 layout: photo_set
 title: New Zealand
-permalink: /nz/
+permalink: /photos/nz/
 description: "An example photo gallery."
 
 photos:
