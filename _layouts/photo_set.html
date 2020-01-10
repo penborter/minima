@@ -8,7 +8,9 @@ layout: default
 <ul style="list-style-type: none;">
   {% for i in (1..num) %}
   <li>
-    <img src="{{ site.baseurl }}/images/photos/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}">
+    <a class="gallery-image" href="/images/photos/{{ page.photos.set }}-{{ i }}.jpg" data-lightbox="{{ page.photos.set }}">
+      <img src="{{ site.baseurl }}/images/photos/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}">
+    </a>                                                                                                                                           
   </li>
   {% endfor %}
 </ul>
